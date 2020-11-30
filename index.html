@@ -2,39 +2,80 @@
 <html>
 <head>
   <title>ACME</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav class="page-section">
+  <nav class="page-section nav">
     <div class="inner-nav">
+      <div class="inv-burger">
+      </div>
       <div class="logo">
-        <img src="./images/logo_img.png" alt="logo_img"/>
-        <img src="./images/logo_text.png" alt="logo_text"/>
+        <img class="logo-img" src="./images/logo_img.png" alt="logo_img"/>
+        <img class="logo-txt" src="./images/logo_text.png" alt="logo_text"/>
       </div>
       <div class="header">
         <p class=heading-1>Research Professional</p>
         <p class=heading-2><b>Platform</b></p>
       </div>
-      <div class="nav-divider"></div>
       <ul class="nav-pages">
+        <li class="non-link">Site Links</li>
         <li>Home</li>
         <li>About Us</li>
         <li>Insights</li>
         <li>Events</li>
         <li>Contact Us</li>
       </ul>
+      <div class="burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
     </div>
   </nav>
+  <ul class="nav-dropdown">
+    <li class="non-link">Site Links</li>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Insights</li>
+    <li>Events</li>
+    <li>Contact Us</li>
+  </ul>
+  <div class="overlay"></div>
   <div class="banner page-section">
-    <p class="heading-1">
-      <b>ACME Wealth
-      <br>Management Platforms</b>
-    </p>
-    <p class="heading-2">
-      Investment excellence.<br>
-      Diversity of thought.<br>
-      Organizational strength.<br>
-    </p>
+    <p class="heading-0">Research Professional Platform</p>
+    <div>
+      <p class="heading-1">
+        <b><span class="subheading-1">ACME Wealth</span>
+        <br><span class="subheading-2"><span>Management</span> <span>Platforms</span></span></b>
+      </p>
+      <div class="dotted-divider">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <p class="heading-2">
+        Investment excellence.<br>
+        Diversity of thought.<br>
+        Organizational strength.<br>
+      </p>
+    </div>
+    <div></div>
   </div>
   <div class="insights page-section">
     <p class="heading-1">
@@ -78,7 +119,7 @@
   </div>
   <div class="contact page-section">
     <div class="statement">
-      <p class="heading-1"><b>Our Commitment to Professionals</b></p>
+      <p class="heading-1"><span><b>Our Commitment</b></span> <span><b>to Professionals</b></span></p>
       <p class="heading-2">
         We help our partners deliver industry leading results with a commitment
         to excellence, thought-provoking insights and experienced distribution. 
@@ -171,5 +212,19 @@
       <div class="socmed-icon"></div>
     </div>
   </div>
+  <ul class="footer-mobile">
+    <li class="btn-container">
+      <div class="left">Privacy Policy</div>
+      <div class="right">Terms of Use</div>
+    </li>
+    <li class="non-link">Site Links</li>
+    <li class="link">Home</li>
+    <li class="link">About Us</li>
+    <li class="link">Insights</li>
+    <li class="link">Events</li>
+    <li class="link">Due Diligence</li>
+    <li class="link">Contact Us</li>
+  </ul>
+  <script src="index.js"></script>
 </body>
 </html>
